@@ -1,0 +1,22 @@
+<div class="col-sm-3" style="border: 1px solid">
+  <div class="row scorecard">
+    <h1 class="period text-center"> {{ info.period }}</h1>
+    <div class="visitor col-xs-4">
+      <h2 class="visitor-score"> {{ info.visitor_score }} </h2>
+      <h4>
+        <span class="visitor-city">{{ info.visitor_team.city}} </span><br/>
+        <span class="visitor-name">{{ info.visitor_team.name}}  </span>
+      </h4>
+    </div>
+    <div class="dash col-xs-3">
+      <h2>-</h2>
+    </div>
+    <div class="home col-xs-4">
+      <h2 class="home-score"> {{ info.home_score}} </h2>
+      <h4>
+        <span class="home-city">{{ info.home_team.city}}  </span><br/>
+        <span class="home-name">{{ info.home_team.name}}  </span>
+      </h4>
+    </div>
+  </div>
+</div>

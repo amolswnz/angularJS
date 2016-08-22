@@ -11,3 +11,7 @@
 
 ## 4 - Bolt Network - Advance
 > Directives - ``restrict, scope, templateURL``
+
+## 5 - Gameboard
+> Directives - ``restrict, scope, templateURL`` 
+> ``ng-repeat`` on directive 
