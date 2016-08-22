@@ -18,3 +18,6 @@
 
 ## 6 - Feedster
 > Directives - ``restrict, scope, templateURL``   ``ng-repeat`` on directive  ``ng-click`` on directive
+
+## 7 - Outbox
+> Using ``$http`` service to get JSON data
