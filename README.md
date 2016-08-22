@@ -1,4 +1,4 @@
-# Angular JS Application 
+# Angular JS Applications - Codecademy PRO
 
 ## 1 - Bolt Network
 > Module, Controller and Filter
@@ -8,3 +8,6 @@
 
 ## 3 - Move Log
 > Module, Controller, ng-repeat, ng-click
+
+## 4 - Bolt Network - Advance
+> Directives - ``restrict, scope, templateURL``
