@@ -21,3 +21,6 @@
 
 ## 7 - Outbox
 > Using ``$http`` service to get JSON data
+
+## 8 - Topten TV Shows
+> Using ``$http`` service and directives
