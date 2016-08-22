@@ -1,0 +1,7 @@
+<div class="email col-md-3" ng-repeat="email in emails">
+    <a href="#/outbox/{{$index}}">
+        <h4 class="from">{{email.from}} </h4>
+        <h5 class="subject"> {{ email.subject }}</h5>
+        <h6 class="date"> {{email.datetime | date}} </h6>
+    </a>
+</div>
