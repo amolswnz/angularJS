@@ -15,3 +15,6 @@
 ## 5 - Gameboard
 > Directives - ``restrict, scope, templateURL`` 
 > ``ng-repeat`` on directive 
+
+## 6 - Feedster
+> Directives - ``restrict, scope, templateURL``   ``ng-repeat`` on directive  ``ng-click`` on directive
