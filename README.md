@@ -25,5 +25,10 @@
 ## 8 - Topten TV Shows
 > Using ``$http`` service and directives
 
-## 9- Outbox Advance
+## 9 - Outbox Advance
+> Using ``$http`` service to get JSON data
+> Using ``$routeProvider``
+
+## 10 - Calander
+> Using ``$http`` service to get JSON data
 > Using ``$routeProvider``
