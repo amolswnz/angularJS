@@ -37,3 +37,6 @@
 > Using ``$http`` service to get JSON data
 > Using ``$routeProvider``
 > Bookshelf has many Books. Book have many Chapters
+
+## 12 - Near Me
+> Creating location based services using third party directives
