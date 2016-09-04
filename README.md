@@ -32,3 +32,8 @@
 ## 10 - Calander
 > Using ``$http`` service to get JSON data
 > Using ``$routeProvider``
+
+## 11 - Book Reader
+> Using ``$http`` service to get JSON data
+> Using ``$routeProvider``
+> Bookshelf has many Books. Book have many Chapters

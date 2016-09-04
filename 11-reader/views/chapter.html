@@ -1,0 +1,7 @@
+<a class="btn btn-warning" href="#/books/{{ currentBook }}">Back</a>
+<div class="chapter">
+  <h1 class="title">  {{ book.title }}<small>by {{ book.author }}</small> </h1>
+  <h2 class="chapter-title"> Chapter - {{ chapter.title}} </h2>
+  <p ng-repeat="para in chapter.paragraphs"> {{ para }} </p>
+  <a class="btn btn-primary" href="#/books/{{ currentBookIndex }}/chapters/{{ nextChapterIndex }}">Next</a>
+</div>
