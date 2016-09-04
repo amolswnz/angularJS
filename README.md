@@ -40,3 +40,6 @@
 
 ## 12 - Near Me
 > Creating location based services using third party directives
+
+## 13 - Near Me - 2
+> Extending Near Me to display Wikipedia pages based on marker positions
