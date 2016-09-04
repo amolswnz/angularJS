@@ -43,3 +43,6 @@
 
 ## 13 - Near Me - 2
 > Extending Near Me to display Wikipedia pages based on marker positions
+
+## 14 - Near Me - 3
+> Adding `ng-view` and page routing
