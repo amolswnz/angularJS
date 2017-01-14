@@ -21,10 +21,9 @@
 [Github Pages Demo](04-bolt-network-adv/index.html)
 
 ## 5 - Gameboard
-> Directives - ``restrict, scope, templateURL`` 
+> Directives - ``restrict, scope, templateURL`` > ``ng-repeat`` on directive 
 
-[Github Pages Demo](05-gameboard/index.html)> ``ng-repeat`` on directive 
-
+[Github Pages Demo](05-gameboard/index.html)
 
 ## 6 - Feedster
 > Directives - ``restrict, scope, templateURL``   ``ng-repeat`` on directive  ``ng-click`` on directive
