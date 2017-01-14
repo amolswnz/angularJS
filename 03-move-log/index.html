@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>codecademy PRO - AngularJS</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/leaflet.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 </head>
-<body ng-app="NearMeApp">
+<body ng-app="MoveLogApp">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <h1>Near Me</h1>
+                <h1>Move Log</h1>
             </div>
         </div>
         <hr>
-        <div class="row">
+        <div class="row" ng-controller="MainController">
             <div class="col-md-12">
-                <div class="main" ng-controller="MainController" style="min-height: 400px; width:70% ">
-                    <div class="container-fluid" id="map-canvas">
-                        <leaflet center="center" markers="markers"></leaflet>
+                <div class="row" ng-repeat="exe in exercises">
+                    <div class="exercise-icon col-md-1"> <img ng-src="{{ exe.icon }}"> </div>
+                    <div class="col-md-2">
+                        <p class="exercise-name"> {{ exe.name}} </p>
+                    </div>
+                    <div class="col-md-2 counters">
+                        <button class="btn btn-danger" ng-click="descrease($index)">-</button>
+                        {{ exe.count }}
+                        <button class="btn btn-info" ng-click="increase($index)">+</button>
                     </div>
                 </div>
             </div>
@@ -36,7 +40,5 @@
     </div>
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/MainController.js"></script>
-    <script type="text/javascript" src="js/vendor/leaflet.js"></script>
-    <script type="text/javascript" src="js/vendor/angular-leaflet-directive.min.js"></script>
 </body>
 </html>
