@@ -72,3 +72,8 @@
 > Adding `ng-view` and page routing
 
 [Github Pages Demo](https://amolswnz.github.io/angularJS/14-near-me-3/index.html)
+
+
+## Credits
+
+[Codecademy](https://www.codecademy.com) is an education company. [Resources](https://www.codecademy.com/courses/learn-angularjs) 
