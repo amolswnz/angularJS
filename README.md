@@ -1,7 +1,7 @@
 # Angular JS Applications - Codecademy PRO
 
 ## 1 - Bolt Network
-> Module, Controller and Filter
+> Module, Controller and Filter [Demo](1-bolt-network/index.html)
 
 ## 2 - Pizza Planet
 > Module, Controller, Filter, ng-repeat
